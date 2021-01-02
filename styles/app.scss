@@ -1,0 +1,68 @@
+// @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    --color-primary: #41D6C3;
+    --color-primary-light: #d4f6f1;
+    --color-primary-dark: #28bca9;
+    --color-secondary: #42A1EC;
+    --color-secondary-light: #e4f2fc;
+    --color-secondary-dark: #178ae4;
+    --color-default: #DEDEDE;
+    --color-default-light: #DEDEDE;
+    --color-default-dark: #DEDEDE;
+    --color-success: #81CF87;
+    --color-success-light: #f0f9f1;
+    --color-success-dark: #5cc164;
+    --color-warning: #FFCD00;
+    --color-warning-light: #fff5cc;
+    --color-warning-dark: #e6b900;
+    --color-danger: #EE5454;
+    --color-danger-light: #fcdfdf;
+    --color-danger-dark: #e92626;
+    --color-dark: #404852;
+    --color-light: #FFFFFF;
+}
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    @font-face {
+        font-family: 'Museo Sans';
+        font-weight: 100;
+        font-style: normal;
+        font-display: swap;
+        src:url(/fonts/museosans-100.woff2) format("woff2"),
+            url(/fonts/museosans-100.woff) format("woff"),
+            url(/fonts/museosans-100.ttf) format("truetype")
+    }
+  
+    @font-face {
+        font-family: 'Museo Sans';
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+        src:url(/fonts/museosans-300.woff2) format("woff2"),
+            url(/fonts/museosans-300.woff) format("woff"),
+            url(/fonts/museosans-300.ttf) format("truetype")
+    }
+    
+    @font-face {
+        font-family: 'Museo Sans';
+        font-weight: 500;
+        font-style: normal;
+        src:url(/fonts/museosans-500.woff2) format("woff2"),
+            url(/fonts/museosans-500.woff) format("woff"),
+            url(/fonts/museosans-500.ttf) format("truetype")
+    }
+  
+    @font-face {
+        font-family: 'Museo Sans';
+        font-weight: 700;
+        font-style: normal;
+        src:url(/fonts/museosans-700.woff2) format("woff2"),
+            url(/fonts/museosans-700.woff) format("woff"),
+            url(/fonts/museosans-700.ttf) format("truetype")
+    }
+}
